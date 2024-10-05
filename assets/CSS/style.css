@@ -1,0 +1,30 @@
+
+.caption{
+    width:80%;
+    bottom:30px;
+    left:10%;
+    padding:1rem;
+    background-color: #FFF;
+    text-align: center;
+}
+.item img{
+    cursor: pointer;
+}
+#showProduct{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#showItem{
+    width:40%;
+    height:50vh;
+    background-image:url("../Images/service_02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#showItem i{
+    cursor: pointer;
+}
+@media (max-width:767px){
+    #showItem{
+        width:100%;
+    }
+}
